@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfólio UGC · Larissa Pereira</title>
+<meta name="description" content="Larissa Pereira, criadora de conteúdo UGC e influencer. Portfólio com trabalhos por nicho, formatos, métricas e contato.">
+<meta property="og:title" content="Portfólio UGC · Larissa Pereira">
+<meta property="og:description" content="Criadora de conteúdo UGC & Influencer. Veja meus trabalhos e vamos conversar sobre a sua marca.">
+<meta property="og:image" content="assets/foto-home.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/roseta.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,100..900,0..100,0..1;1,9..144,100..900,0..100,0..1&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;display=swap">
+<style>
+html,body{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:#FFF7F2}
+html{scroll-behavior:smooth}
+a{color:#770523;text-decoration:none}a:hover{color:#D81A67}
+@keyframes esteira{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.esteira{animation:esteira 50s linear infinite}
+.esteira-box:hover .esteira{animation-play-state:paused}
+@media (prefers-reduced-motion: reduce){.esteira{animation:none}}
+.fundo-peonia{background-image:url(assets/papel-peonia.jpg);background-size:1080px auto;background-repeat:repeat}
+.mescla{-webkit-mask-image:linear-gradient(to right, transparent 0%, #000 38%);mask-image:linear-gradient(to right, transparent 0%, #000 38%)}
+.mono{mix-blend-mode:luminosity;filter:contrast(1.08)}
+.menu-link{padding:10px 0;color:#770523;border-bottom:2px solid transparent;transition:color .2s,border-color .2s,background .2s}
+.menu-link:hover{color:#D81A67}
+.menu-ativo{color:#D81A67 !important;border-bottom-color:#D81A67}
+.menu-contato{padding:10px 22px;background:#D81A67;color:#FFFFFF !important;border-radius:999px;border-bottom:0}
+.menu-contato:hover{background:#770523}
+.menu-contato.menu-ativo{background:#770523}
+.fundo-creme{background-image:url(assets/papel-creme.jpg);background-size:1080px auto;background-repeat:repeat;background-color:#FFF7F2}
+.onda-topo{-webkit-mask-image:radial-gradient(circle at 50% 100%, #000 15px, transparent 15.5px);mask-image:radial-gradient(circle at 50% 100%, #000 15px, transparent 15.5px);-webkit-mask-size:34px 16px;mask-size:34px 16px;-webkit-mask-repeat:repeat-x;mask-repeat:repeat-x}
+.onda-base{-webkit-mask-image:radial-gradient(circle at 50% 0%, #000 15px, transparent 15.5px);mask-image:radial-gradient(circle at 50% 0%, #000 15px, transparent 15.5px);-webkit-mask-size:34px 16px;mask-size:34px 16px;-webkit-mask-repeat:repeat-x;mask-repeat:repeat-x}
+.funde-topo{-webkit-mask-image:linear-gradient(to bottom, #000 0%, transparent 100%);mask-image:linear-gradient(to bottom, #000 0%, transparent 100%)}
+section[id]{scroll-margin-top:84px}
+.logo-marca{filter:grayscale(1);opacity:.75;transition:filter .3s,opacity .3s}
+.logo-marca:hover{filter:none;opacity:1}
+.nicho{padding:10px 16px;white-space:nowrap;min-height:44px;border-radius:999px;border:1px solid rgba(119,5,35,0.35);background:transparent;color:#770523;font-family:'Nunito',sans-serif;font-weight:600;font-size:13px;letter-spacing:0.14em;text-transform:uppercase;cursor:pointer;transition:background .2s,border-color .2s}
+.nicho:hover{background:rgba(250,210,225,0.5)}
+.nicho-ativo{background:#FAD2E1 !important;border-color:#770523 !important;font-weight:800}
+.galeria{display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:28px}
+.seta{flex:none;width:46px;height:46px;border-radius:999px;border:1px solid rgba(119,5,35,0.4);background:#FFF7F2;color:#770523;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:opacity .2s,background .2s}
+.seta:hover{background:#FAD2E1}
+.seta:disabled{opacity:.3;cursor:default;background:#FFF7F2}
+.mosaico{display:grid;grid-template-columns:repeat(5, minmax(0, 1fr));grid-template-rows:repeat(2, 400px);gap:12px}
+.mosaico-item{position:relative;overflow:hidden;border-radius:18px;background:#FAD2E1}
+.mosaico-item img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.mosaico-item:hover img{transform:scale(1.04)}
+.fundo-bordo{background-image:url(assets/cimento-bordo.jpg);background-size:1080px auto;background-repeat:repeat;background-color:#770523}
+.formatos-grid{display:grid;grid-template-columns:repeat(3, 360px);justify-content:center;gap:30px}
+.formato-card{position:relative;width:360px;height:262px;background:url(assets/moldura.svg) no-repeat center / 100% 100%;filter:drop-shadow(0 10px 18px rgba(0,0,0,0.22));padding:32px 34px 24px;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:10px;text-align:center;color:#770523;transition:transform .3s}
+.formato-card h3{margin:0;font-family:'Fraunces',Georgia,serif;font-weight:500;font-size:18px;letter-spacing:0.06em;text-transform:uppercase;white-space:nowrap;line-height:1.2}
+.formato-card:hover{transform:translateY(-4px)}
+.formato-card p{margin:0;font-size:15px;line-height:1.5}
+.formato-card .roseta{width:54px;height:54px;font-size:18px}
+.roseta{width:68px;height:68px;flex:none;background:url(assets/roseta.svg) no-repeat center / contain;display:flex;align-items:center;justify-content:center;font-family:'Fraunces',Georgia,serif;font-style:italic;font-size:22px;color:#FAD2E1}
+.renda{-webkit-mask-image:radial-gradient(circle at 50% 42%, transparent 2.6px, #000 3.2px),radial-gradient(circle at 50% 0, #000 17.6px, transparent 18.2px);-webkit-mask-size:34px 21px,34px 21px;-webkit-mask-repeat:repeat-x;-webkit-mask-composite:source-in;mask-image:radial-gradient(circle at 50% 42%, transparent 2.6px, #000 3.2px),radial-gradient(circle at 50% 0, #000 17.6px, transparent 18.2px);mask-size:34px 21px,34px 21px;mask-repeat:repeat-x;mask-composite:intersect}
+.onda-fim{-webkit-mask-image:radial-gradient(circle at 50% 0, #000 17.6px, transparent 18.2px);mask-image:radial-gradient(circle at 50% 0, #000 17.6px, transparent 18.2px);-webkit-mask-size:34px 18px;mask-size:34px 18px;-webkit-mask-repeat:repeat-x;mask-repeat:repeat-x}
+.bordo-ondas{-webkit-mask-image:linear-gradient(#000,#000),radial-gradient(circle at 50% 0, #000 17.6px, transparent 18.2px);-webkit-mask-size:100% calc(100% - 17px),34px 18px;-webkit-mask-position:0 0,0 100%;-webkit-mask-repeat:no-repeat,repeat-x;mask-image:linear-gradient(#000,#000),radial-gradient(circle at 50% 0, #000 17.6px, transparent 18.2px);mask-size:100% calc(100% - 17px),34px 18px;mask-position:0 0,0 100%;mask-repeat:no-repeat,repeat-x}
+.etapa-icone{position:absolute;width:110px;height:110px}
+.etapa-icone .circulo{width:110px;height:110px;border-radius:999px;background:#FAD2E1;border:1.5px solid rgba(119,5,35,0.25);box-sizing:border-box;display:flex;align-items:center;justify-content:center;box-shadow:0 14px 30px rgba(119,5,35,0.10)}
+.etapa-icone svg{width:56px;height:56px}
+.etapa-icone .roseta{position:absolute;right:-14px;top:-10px;width:46px;height:46px;font-size:16px}
+.etapa-texto{position:absolute;width:300px;display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center}
+.etapa-texto h3{margin:0;font-family:'Fraunces',Georgia,serif;font-variation-settings:'SOFT' 100,'WONK' 0;font-weight:600;font-size:20px;letter-spacing:0.08em;text-transform:uppercase;line-height:1.2}
+.etapa-texto p{margin:0;font-size:15px;line-height:1.6}
+.esteira-palavras{animation:esteira 60s linear infinite}
+@media (prefers-reduced-motion: reduce){.esteira-palavras{animation:none}}
+.rede{width:52px;height:52px;border-radius:999px;background:#770523;color:#FAD2E1;display:flex;align-items:center;justify-content:center;transition:background .2s, transform .2s}
+.rede:hover{background:#D81A67 !important;color:#FFFFFF !important;transform:translateY(-2px)}
+.rede-card{display:flex;flex-direction:column;align-items:center;gap:10px;padding:26px 16px 22px;border-radius:24px;box-shadow:0 18px 36px rgba(0,0,0,0.22);text-align:center;color:#770523;transition:transform .2s}
+.rede-card:hover{transform:translateY(-4px);color:#770523}
+.rede-icone{width:56px;height:56px;border-radius:999px;background:#770523;color:#FAD2E1;display:flex;align-items:center;justify-content:center;transition:background .2s}
+.rede-card:hover .rede-icone{background:#D81A67}
+.rede-nome{font-family:'Fraunces',Georgia,serif;font-variation-settings:'SOFT' 100,'WONK' 0;font-weight:600;font-size:22px;line-height:1.1}
+.rede-sub{font-size:14px;font-weight:700;color:#D81A67;white-space:nowrap}
+.contato-btn{display:flex;align-items:center;justify-content:center;gap:10px;padding:18px 26px;border-radius:999px;background:#770523;color:#FAD2E1;font-weight:800;font-size:15px;transition:background .2s}
+.contato-btn:hover{background:#D81A67;color:#FFFFFF}
+.serif{font-family:'Fraunces',Georgia,serif;font-variation-settings:'SOFT' 100,'WONK' 0}
+.pilula{align-self:flex-start;display:inline-block;background:#770523;color:#FAD2E1;font-weight:800;font-size:15px;letter-spacing:0.04em;padding:10px 22px;border-radius:999px}
+.estrela{position:absolute}
+.metrica-linha{display:flex;flex-direction:column;gap:5px}
+.metrica-linha div{display:flex;justify-content:space-between;gap:8px;font-size:13px;line-height:1.2}
+.barra{display:block;height:6px;border-radius:999px;background:rgba(119,5,35,0.10);overflow:hidden}
+.barra span{display:block;height:100%;background:#770523;border-radius:999px}
+.rotulo{display:block;font-size:12px;font-weight:800;letter-spacing:0.16em;margin-bottom:14px}
+.video-aviso{width:100%;aspect-ratio:9 / 16;border-radius:22px;background:#FFF7F2;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px}
+</style>
+</head>
+<body>
+<div id="pagina" class="fundo-peonia" style="width:1440px;background-color:#FAD2E1;font-family:'Nunito',sans-serif;color:#770523;box-sizing:border-box">
+
+<!-- MENU -->
+<header style="position:sticky;top:0;z-index:10;background:#FFF7F2;border-bottom:1px solid rgba(119,5,35,0.15)">
+<nav aria-label="Menu principal" style="max-width:1280px;margin:0 auto;padding:18px 32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 32px;box-sizing:border-box">
+<a href="#home" style="font-family:Nunito,sans-serif;font-weight:400;font-size:24px;letter-spacing:-0.01em;color:#770523">Portfólio Larissa Pereira 2026</a>
+<div id="menu" style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 22px;font-size:15px;font-weight:700"></div>
+</nav>
+</header>
+
+<!-- HOME -->
+<section id="home" style="position:relative;overflow:hidden;min-height:700px;padding:0 32px;display:flex;align-items:center;box-sizing:border-box">
+<svg class="estrela" aria-hidden="true" width="44" height="44" viewBox="0 0 24 24" style="left:70px;top:76px"><use href="#estrela" fill="#D81A67"/></svg>
+<svg class="estrela" aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" style="left:42%;top:80px"><use href="#estrela" fill="#770523"/></svg>
+<svg class="estrela" aria-hidden="true" width="40" height="40" viewBox="0 0 24 24" style="left:38%;bottom:56px"><use href="#estrela" fill="#DD4E28"/></svg>
+<img class="mescla mono" src="assets/foto-home.jpg" alt="Larissa Pereira sorrindo, de blusa clara, na luz dourada do fim de tarde" style="position:absolute;right:0;top:0;width:45%;height:100%;object-fit:cover;object-position:50% 20%">
+<div style="width:100%;max-width:1180px;margin:0 auto;position:relative;z-index:1">
+<div style="max-width:660px;display:flex;flex-direction:column;gap:22px">
+<span class="pilula">Portfólio 2026</span>
+<h1 class="serif" style="margin:0;font-weight:800;font-size:80px;white-space:nowrap;line-height:0.95;letter-spacing:-0.03em;color:#770523">Larissa Pereira</h1>
+<p style="margin:0;font-weight:800;font-size:16px;letter-spacing:0.16em;color:#D81A67;white-space:nowrap">CRIADORA DE CONTEÚDO UGC &amp; INFLUENCER</p>
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:14px">
+<a class="rede" href="https://wa.me/5517996530290?text=Ol%C3%A1!%20Vim%20pelo%20seu%20portf%C3%B3lio%20e%20quero%20conversar%20sobre%20parcerias" target="_blank" rel="noopener" aria-label="WhatsApp"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><use href="#ic-whats"/></svg></a>
+<a class="rede" href="https://www.instagram.com/itslaripereira/" target="_blank" rel="noopener" aria-label="Instagram"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><use href="#ic-insta"/></svg></a>
+<a class="rede" href="https://www.tiktok.com/@itslaripereira" target="_blank" rel="noopener" aria-label="TikTok"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><use href="#ic-tiktok"/></svg></a>
+</div>
+<div style="margin-top:4px"><span style="display:block;width:64px;height:2px;background:#770523;opacity:0.6"></span></div>
+</div>
+</div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="fundo-creme" style="position:relative;z-index:2;padding:96px 32px;box-sizing:border-box">
+<div class="fundo-creme onda-topo" aria-hidden="true" style="position:absolute;left:0;right:0;top:-16px;height:16px"></div>
+<div class="fundo-creme onda-base" aria-hidden="true" style="position:absolute;left:0;right:0;bottom:-16px;height:16px"></div>
+<svg class="estrela" aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" style="right:8%;top:64px"><use href="#estrela" fill="#770523"/></svg>
+<div style="max-width:1180px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:72px">
+<div style="flex:0 1 470px;min-width:260px;background:#FAD2E1;padding:14px;border-radius:28px;box-shadow:0 18px 40px rgba(119,5,35,0.12);box-sizing:border-box;transform:rotate(-2deg)">
+<img src="assets/foto-sobre.jpg" alt="Larissa de bailarina, com tutu verde e sapatilhas de ponta, sentada numa carruagem dourada" style="display:block;width:100%;height:auto;aspect-ratio:1200 / 1571;object-fit:cover;border-radius:18px">
+</div>
+<div style="flex:1 1 480px;min-width:0;display:flex;flex-direction:column;gap:20px;font-size:18px;line-height:1.65">
+<span class="pilula">Sobre Mim</span>
+<h2 class="serif" style="margin:0 0 8px;font-weight:800;font-size:64px;line-height:0.95;letter-spacing:-0.02em">Sou a Lari!</h2>
+<p style="margin:0">Moro no interior de São Paulo, tenho 30 anos e sou Social Media Estrategista há 6 anos, com um olhar atento para branding e uma paixão especial por storytelling.</p>
+<p style="margin:0">Mas, antes de qualquer título profissional, sou <b>mãe do Arthur (10), da Heloísa (8) e do Théo (4)</b>. É na vida real, entre a maternidade, o empreendedorismo e a rotina, que encontro muitas das histórias que me inspiram a criar.</p>
+<p style="margin:0">Sou curiosa por natureza, criativa e apaixonada por descobrir coisas novas. Comecei a fazer ballet depois de adulta e, talvez, isso diga muito sobre mim: acredito que <b>nunca é tarde</b> para experimentar, aprender e se permitir novos começos.</p>
+<p style="margin:0">Foi na comunicação que encontrei uma forma de unir tudo isso: transformar experiências em histórias e histórias em conexão.</p>
+<p style="margin:0">Como Creator, meu objetivo é apresentar sua marca, produto ou serviço de forma autêntica, criativa e estratégica, unindo a naturalidade de quem vive a experiência ao olhar de quem entende a comunicação por trás dela.</p>
+<p style="margin:0">Mais do que mostrar o que sua marca oferece, quero criar conteúdos que façam as pessoas <b>se identificarem, desejarem e se conectarem</b> com ela.</p>
+</div>
+</div>
+</section>
+
+<!-- MARCAS -->
+<section id="marcas" style="padding:52px 0 18px;box-sizing:border-box">
+<p style="margin:0 0 24px;padding:0 32px;text-align:center;font-weight:800;font-size:14px;letter-spacing:0.18em;opacity:0.75">MARCAS COM QUEM JÁ TRABALHEI</p>
+<div class="esteira-box" style="overflow:hidden;width:100%">
+<div id="marcas-esteira" class="esteira" style="display:flex;width:max-content;gap:50px;align-items:center;padding:0 25px"></div>
+</div>
+</section>
+
+<!-- TRABALHOS -->
+<section id="trabalhos" class="fundo-creme" style="position:relative;padding:72px 32px 120px;box-sizing:border-box">
+<div class="fundo-peonia funde-topo" aria-hidden="true" style="position:absolute;left:0;right:0;top:0;height:56px;pointer-events:none"></div>
+<div style="position:relative;max-width:1180px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:32px;text-align:center">
+<h2 style="margin:0;font-family:'Fraunces',Georgia,serif;font-weight:500;font-variation-settings:'SOFT' 100,'WONK' 0;font-size:42px;line-height:1.1;letter-spacing:0.06em;text-transform:uppercase;max-width:100%">Trabalhos <span style="font-weight:400">por nicho</span></h2>
+<p style="margin:-16px 0 0;font-size:16px;line-height:1.6;max-width:620px;opacity:0.85">Clique em um nicho para ver só os trabalhos daquela categoria.</p>
+<div id="nichos" role="group" aria-label="Nichos" style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px"></div>
+<div style="display:flex;align-items:center;gap:16px;margin-top:4px;font-family:'Fraunces',Georgia,serif;font-weight:500;font-size:28px;letter-spacing:0.12em;text-transform:uppercase"><span aria-hidden="true" style="width:36px;height:1px;background:#770523;opacity:0.5"></span><span id="nicho-nome" aria-live="polite"></span><span aria-hidden="true" style="width:36px;height:1px;background:#770523;opacity:0.5"></span></div>
+<div style="width:100%;display:flex;align-items:center;gap:20px">
+<button type="button" id="anterior" class="seta" aria-label="Vídeos anteriores"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg></button>
+<div id="galeria" class="galeria" style="flex:1;min-width:0"></div>
+<button type="button" id="proximo" class="seta" aria-label="Próximos vídeos"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"></path></svg></button>
+</div>
+<div id="mosaico" class="mosaico" style="width:100%;margin-top:56px"></div>
+</div>
+</section>
+
+<!-- FORMATOS -->
+<section id="formatos" style="position:relative;z-index:2;padding:66px 32px 18px;box-sizing:border-box;color:#FAD2E1">
+<div class="fundo-bordo bordo-ondas" aria-hidden="true" style="position:absolute;left:0;right:0;top:0;bottom:-17px;z-index:-1;pointer-events:none"></div>
+<div class="fundo-creme renda" aria-hidden="true" style="position:absolute;left:0;right:0;top:-2px;height:23px;pointer-events:none;z-index:1"></div>
+<svg class="estrela" aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" style="left:8%;top:110px"><use href="#estrela" fill="#FAD2E1"/></svg>
+<svg class="estrela" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" style="right:10%;top:150px"><use href="#estrela" fill="#FFFFFF"/></svg>
+<svg class="estrela" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" style="left:12%;bottom:80px"><use href="#estrela" fill="#DD4E28"/></svg>
+<div style="position:relative;max-width:1180px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:20px;text-align:center">
+<p style="margin:0;font-family:'Fraunces',Georgia,serif;font-style:italic;font-weight:400;font-size:26px;line-height:1.3">O formato certo pra cada momento.</p>
+<p style="margin:0;font-size:16px;line-height:1.6;max-width:700px;opacity:0.85">Tem gente que só está conhecendo, e tem gente que só falta um empurrãozinho.<br>Cada formato conversa com uma dessas pessoas.</p>
+<div class="formatos-grid" style="width:100%;margin-top:18px">
+<div class="formato-card"><span class="roseta">01</span><h3>Unboxing</h3><p>A primeira impressão, de verdade: abro a caixa na câmera e mostro embalagem, textura e cada detalhe que vem junto.</p></div>
+<div class="formato-card"><span class="roseta">02</span><h3>Review e comparação</h3><p>Coloco lado a lado, testo e falo sem filtro o que vale a pena, pra quem está em dúvida decidir com segurança.</p></div>
+<div class="formato-card"><span class="roseta">03</span><h3>Promo ads</h3><p>Vídeos curtos e diretos, focados em conversão, para rodar como anúncio.</p></div>
+<div class="formato-card"><span class="roseta">04</span><h3>Demonstração</h3><p>O produto em teste real, mostrando como ele funciona no dia a dia.</p></div>
+<div class="formato-card"><span class="roseta">05</span><h3>Tutorial</h3><p>Mostro o passo a passo como eu explicaria pra uma amiga, sem complicar, respondendo as dúvidas antes de alguém perguntar.</p></div>
+<div class="formato-card"><span class="roseta">06</span><h3>Storytelling</h3><p>Uma história que poderia ser de quem está assistindo, e o produto aparece nessa história, de forma natural.</p></div>
+</div>
+</div>
+<div aria-label="Formatos de conteúdo" style="overflow:hidden;margin:44px -32px 0;padding:0;height:50px;display:flex;align-items:center;border-top:1px solid rgba(250,210,225,0.18);border-bottom:1px solid rgba(250,210,225,0.18);box-sizing:border-box">
+<div id="palavras" class="esteira-palavras" style="display:flex;width:max-content;align-items:center"></div>
+</div>
+</section>
+
+<!-- ETAPAS -->
+<section id="etapas" class="fundo-creme" style="position:relative;margin-top:-30px;padding:62px 32px 6px;box-sizing:border-box;overflow:hidden">
+<svg class="estrela" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" style="left:4%;top:150px"><use href="#estrela" fill="#770523"/></svg>
+<svg class="estrela" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" style="left:2.5%;top:500px"><use href="#estrela" fill="#D81A67"/></svg>
+<svg class="estrela" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" style="right:3%;top:560px"><use href="#estrela" fill="#770523"/></svg>
+<svg class="estrela" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" style="left:55%;bottom:24px"><use href="#estrela" fill="#D81A67"/></svg>
+<svg class="estrela" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" style="right:5%;top:96px"><use href="#estrela" fill="#D81A67"/></svg>
+<div style="max-width:1180px;margin:0 auto">
+<h2 style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">Etapas</h2>
+<div style="position:relative;width:1180px;height:530px;margin-top:4px">
+<svg aria-hidden="true" width="1180" height="530" viewBox="0 0 1180 530" style="position:absolute;inset:0;overflow:visible"><path d="M -40 290 C 30 220, 70 200, 132 200 C 270 200, 300 340, 437 340 C 590 340, 600 200, 742 200 C 890 200, 910 340, 1047 340 C 1120 340, 1160 300, 1220 270" fill="none" stroke="#770523" stroke-width="2" stroke-dasharray="2 9" stroke-linecap="round" opacity="0.55"></path><g transform="translate(730 450) scale(0.45)"><use href="#estrela" fill="#D81A67"/></g><g transform="translate(430 90) scale(0.5)"><use href="#estrela" fill="#770523"/></g><g transform="translate(1150 250) scale(0.55)"><use href="#estrela" fill="#D81A67"/></g><g transform="translate(160 430) scale(0.6)"><use href="#estrela" fill="#DD4E28"/></g></svg>
+<div class="etapa-icone" style="left:77px;top:145px"><div class="circulo"><svg aria-hidden="true" viewBox="0 0 64 64" fill="none" stroke="#770523" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="27" cy="27" r="14"></circle><path d="M37.5 37.5 L52 52"></path><path d="M21 27 h12 M21 22 h8 M21 32 h10" opacity="0.7"></path></svg></div><span class="roseta">01</span></div>
+<div class="etapa-icone" style="left:382px;top:285px"><div class="circulo"><svg aria-hidden="true" viewBox="0 0 64 64" fill="none" stroke="#770523" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="14" y="9" width="28" height="42" rx="3"></rect><path d="M20 19h16 M20 26h16 M20 33h10" opacity="0.7"></path><path d="M41 47 L53 35 L57 39 L45 51 L40 52 Z"></path></svg></div><span class="roseta">02</span></div>
+<div class="etapa-icone" style="left:687px;top:145px"><div class="circulo"><svg aria-hidden="true" viewBox="0 0 64 64" fill="none" stroke="#770523" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="12" y="28" width="40" height="24" rx="3"></rect><path d="M12 28 L49 18 L51 24 L13 34"></path><path d="M22 25.4 L25 30.5 M32 22.7 L35 27.8 M42 20 L45 25" opacity="0.8"></path><path d="M28 36.5 v11 l9.5 -5.5 z"></path></svg></div><span class="roseta">03</span></div>
+<div class="etapa-icone" style="left:992px;top:285px"><div class="circulo"><svg aria-hidden="true" viewBox="0 0 64 64" fill="none" stroke="#770523" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 34 L32 26 L50 34 L32 42 Z"></path><path d="M14 34 v14 L32 56 L50 48 V34"></path><path d="M32 42 v14"></path><path d="M32 12 C28 6 20 9 24 15 L32 21 L40 15 C44 9 36 6 32 12 Z"></path></svg></div><span class="roseta">04</span></div>
+<div class="etapa-texto" style="left:-18px;bottom:401px"><h3>Briefing e estratégia</h3><p>Entendo a marca, o objetivo e o que o seu público sente e pergunta antes de comprar. Daí saem o conceito e o formato.</p></div>
+<div class="etapa-texto" style="left:287px;top:411px"><h3>Roteiro</h3><p>Gancho, história e chamada pra ação pensados pro seu público. O roteiro é aprovado antes de eu gravar.</p></div>
+<div class="etapa-texto" style="left:592px;bottom:401px"><h3>Gravação e edição</h3><p>Vídeos e fotos com cara de vida real e cuidado estético. Edito, envio pra aprovação e faço os ajustes combinados.</p></div>
+<div class="etapa-texto" style="left:897px;top:411px"><h3>Entrega</h3><p>Arquivos finais no formato e prazo combinados, prontos pro orgânico ou pra anúncio, com o uso de imagem definido.</p></div>
+</div>
+</div>
+</section>
+
+<!-- MÉTRICAS -->
+<section id="metricas" class="fundo-bordo" style="position:relative;overflow:hidden;color:#770523;box-sizing:border-box;padding:76px 130px 84px">
+<div class="fundo-creme renda" aria-hidden="true" style="position:absolute;left:0;right:0;top:-2px;height:23px;pointer-events:none;z-index:1"></div>
+<svg class="estrela" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" style="left:90px;top:90px"><use href="#estrela" fill="#FAD2E1"/></svg>
+<svg class="estrela" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" style="right:110px;top:130px"><use href="#estrela" fill="#FFFFFF"/></svg>
+<svg class="estrela" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" style="right:90px;bottom:110px"><use href="#estrela" fill="#DD4E28"/></svg>
+<div style="display:flex;flex-direction:column;align-items:flex-start;gap:6px;margin-bottom:30px;text-align:left;color:#FAD2E1">
+<p class="serif" style="margin:0;font-style:italic;font-size:24px;line-height:1.2">me acompanhe</p>
+<h2 class="serif" style="margin:0;font-weight:500;font-size:42px;letter-spacing:0.06em;text-transform:uppercase;line-height:1.1">Minhas redes sociais</h2>
+</div>
+<div style="display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:28px;align-items:stretch">
+<div class="fundo-creme" style="border-radius:28px;padding:30px 34px;box-shadow:0 24px 50px rgba(0,0,0,0.25);position:relative">
+<div aria-hidden="true" style="position:absolute;inset:10px;border:1px dashed rgba(119,5,35,0.25);border-radius:20px;pointer-events:none"></div>
+<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:20px">
+<div style="display:flex;flex-direction:column;gap:2px"><span style="font-size:13px;font-weight:800;letter-spacing:0.16em;text-transform:uppercase">Instagram</span><span class="serif" style="font-weight:600;font-size:32px;color:#D81A67">@itslaripereira</span></div>
+<div style="display:flex;flex-direction:column;align-items:flex-end;gap:2px"><span style="font-size:12px;font-weight:800;letter-spacing:0.18em">SEGUIDORES</span><span class="serif" style="font-weight:600;font-size:44px;line-height:1">2.626</span><span style="font-size:12px"><b style="color:#D81A67">+4,9%</b> vs. 60 dias anteriores</span></div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:18px;margin-top:20px">
+<div style="display:flex;flex-direction:column;gap:6px"><span style="font-size:12px;opacity:0.75">Visualizações</span><span class="serif" style="font-weight:600;font-size:28px;line-height:1.05">114.885</span><span style="font-size:12px"><b style="color:#D81A67">+127,7%</b> vs. 60 dias anteriores</span></div>
+<div style="display:flex;flex-direction:column;gap:6px"><span style="font-size:12px;opacity:0.75">Contas que assistiram</span><span class="serif" style="font-weight:600;font-size:28px;line-height:1.05">32.800</span><span style="font-size:12px"><b style="color:#D81A67">+43,7%</b> vs. 60 dias anteriores</span></div>
+<div style="display:flex;flex-direction:column;gap:6px"><span style="font-size:12px;opacity:0.75">Views de não seguidores</span><span class="serif" style="font-weight:600;font-size:28px;line-height:1.05">63.589</span><span style="font-size:12px"><b style="color:#D81A67">+72,4%</b> vs. 60 dias anteriores</span></div>
+</div>
+<p style="margin:14px 0 0;font-size:12px;opacity:0.7">Instagram · últimos 60 dias (18/set a 16/nov de 2026)</p>
+<div style="height:1px;background:rgba(119,5,35,0.15);margin:20px 0"></div>
+<div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:32px">
+<div style="min-width:0"><span class="rotulo">PÚBLICO</span><div style="display:flex;flex-direction:column;gap:12px"><div style="display:flex;height:12px;border-radius:999px;overflow:hidden;gap:2px;background:rgba(119,5,35,0.10)"><span style="width:69.3%;background:#D81A67" title="Mulheres: 69,3%"></span><span style="width:30.7%;background:#770523" title="Homens: 30,7%"></span></div><div style="display:flex;flex-direction:column;gap:8px;font-size:13px"><span style="display:flex;align-items:center;gap:8px"><span style="width:9px;height:9px;border-radius:999px;background:#D81A67"></span><b>69,3%</b> mulheres</span><span style="display:flex;align-items:center;gap:8px"><span style="width:9px;height:9px;border-radius:999px;background:#770523"></span><b>30,7%</b> homens</span></div></div></div>
+<div style="min-width:0"><span class="rotulo">IDADE</span><div id="idade" style="display:flex;flex-direction:column;gap:10px"></div></div>
+<div style="min-width:0"><span class="rotulo">CIDADES</span><div id="cidades" style="display:flex;flex-direction:column;gap:10px"></div></div>
+</div>
+<div style="height:1px;background:rgba(119,5,35,0.15);margin:20px 0"></div>
+<div style="display:flex;align-items:flex-end;justify-content:space-between;gap:20px">
+<div style="display:flex;flex-direction:column;gap:10px"><span style="font-size:12px;font-weight:800;letter-spacing:0.16em">VISUALIZAÇÕES POR FORMATO</span><div style="display:flex;gap:8px"><span style="padding:7px 14px;border-radius:999px;background:#FAD2E1;font-size:13px"><b>Reels</b> · 60 mil</span><span style="padding:7px 14px;border-radius:999px;background:#FAD2E1;font-size:13px"><b>Stories</b> · 37 mil</span><span style="padding:7px 14px;border-radius:999px;background:#FAD2E1;font-size:13px"><b>Posts</b> · 6,6 mil</span></div></div>
+<a href="https://www.instagram.com/itslaripereira/" target="_blank" rel="noopener" style="flex:none;display:inline-block;padding:12px 22px;border-radius:999px;background:#770523;color:#FAD2E1;font-weight:800;font-size:14px;white-space:nowrap">Seguir no Instagram →</a>
+</div>
+</div>
+<figure class="fundo-creme" style="margin:0;border-radius:28px;padding:14px 14px 12px;box-shadow:0 24px 50px rgba(0,0,0,0.25);display:flex;flex-direction:column;gap:10px">
+<div style="flex:1;min-height:0;border-radius:18px;overflow:hidden;background:#FFFFFF"><img src="assets/print-instagram.jpg" alt="Print do Instagram com os conteúdos mais vistos: de 17 mil a 2,7 mil visualizações por post" style="display:block;width:100%;height:100%;object-fit:cover;object-position:top"></div>
+<figcaption style="text-align:center;font-size:12px;font-weight:800;letter-spacing:0.16em">MAIS VISTOS NO INSTAGRAM</figcaption>
+</figure>
+</div>
+<div style="margin-top:44px;display:flex;flex-direction:column;align-items:center;gap:22px">
+<div style="display:flex;align-items:center;gap:16px;color:#FAD2E1;font-size:14px;font-weight:800;letter-spacing:0.2em"><span aria-hidden="true" style="width:36px;height:1px;background:#FAD2E1;opacity:0.5"></span>TODAS AS REDES<span aria-hidden="true" style="width:36px;height:1px;background:#FAD2E1;opacity:0.5"></span></div>
+<div style="width:100%;display:grid;grid-template-columns:repeat(4, minmax(0, 1fr));gap:24px">
+<a class="rede-card fundo-creme" href="mailto:contato@laripereira.com" aria-label="Email: contato@laripereira.com"><span class="rede-icone"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24"><use href="#ic-email"/></svg></span><span class="rede-nome">Email</span><span class="rede-sub">contato@laripereira.com</span></a>
+<a class="rede-card fundo-creme" href="https://api.whatsapp.com/send/?phone=5517996530290&amp;text=Ol%C3%A1%21+Vim+pelo+seu+portf%C3%B3lio+e+quero+conversar+sobre+parcerias&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener" aria-label="WhatsApp: (17) 99653-0290"><span class="rede-icone"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24"><use href="#ic-whats"/></svg></span><span class="rede-nome">WhatsApp</span><span class="rede-sub">(17) 99653-0290</span></a>
+<a class="rede-card fundo-creme" href="https://www.youtube.com/@itslaripereira" target="_blank" rel="noopener" aria-label="YouTube: @itslaripereira"><span class="rede-icone"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24"><use href="#ic-youtube"/></svg></span><span class="rede-nome">YouTube</span><span class="rede-sub">@itslaripereira</span></a>
+<a class="rede-card fundo-creme" href="https://www.tiktok.com/@itslaripereira" target="_blank" rel="noopener" aria-label="TikTok: @itslaripereira"><span class="rede-icone"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24"><use href="#ic-tiktok"/></svg></span><span class="rede-nome">TikTok</span><span class="rede-sub">@itslaripereira</span></a>
+</div>
+</div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" style="position:relative;overflow:hidden;box-sizing:border-box;color:#770523">
+<div style="position:relative;min-height:500px;padding:40px 32px 20px;display:flex;align-items:center;box-sizing:border-box">
+<div class="fundo-bordo onda-fim" aria-hidden="true" style="position:absolute;left:0;right:0;top:-1px;height:19px;pointer-events:none;z-index:2"></div>
+<svg class="estrela" aria-hidden="true" width="40" height="40" viewBox="0 0 24 24" style="left:70px;top:90px"><use href="#estrela" fill="#D81A67"/></svg>
+<svg class="estrela" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" style="right:120px;top:90px"><use href="#estrela" fill="#770523"/></svg>
+<svg class="estrela" aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" style="left:55%;bottom:56px"><use href="#estrela" fill="#DD4E28"/></svg>
+<div style="width:100%;max-width:1180px;margin:0 auto;position:relative;z-index:1">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:64px">
+<div style="max-width:700px;display:flex;flex-direction:column;gap:22px">
+<span class="pilula">Contato</span>
+<p class="serif" style="margin:0;font-style:italic;font-size:26px;line-height:1.2;color:#D81A67">Ficou com vontade de ver sua marca aqui?</p>
+<h2 class="serif" style="margin:-8px 0 0;font-weight:800;font-size:80px;white-space:nowrap;line-height:0.95;letter-spacing:-0.03em">Vamos conversar</h2>
+<p style="margin:0;font-size:18px;line-height:1.6;max-width:560px">Me conta sobre a sua marca e o que você quer comunicar. Eu volto com ideias e uma proposta pensada pra você.</p>
+<div style="margin-top:4px"><span style="display:block;width:64px;height:2px;background:#770523;opacity:0.6"></span></div>
+</div>
+<div style="flex:none;width:340px;display:flex;flex-direction:column;align-items:stretch;gap:14px">
+<a class="contato-btn" href="https://api.whatsapp.com/send/?phone=5517996530290&amp;text=Ol%C3%A1%21+Vim+pelo+seu+portf%C3%B3lio+e+quero+conversar+sobre+parcerias&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24"><use href="#ic-whats"/></svg>Chamar no WhatsApp</a>
+<a class="contato-btn" href="mailto:contato@laripereira.com"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24"><use href="#ic-email"/></svg>contato@laripereira.com</a>
+</div>
+</div>
+</div>
+</div>
+<div style="background:#FFF7F2;border-top:1px solid rgba(119,5,35,0.15)">
+<div style="max-width:1280px;margin:0 auto;padding:20px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:13px;box-sizing:border-box">
+<span><b style="font-family:Nunito,sans-serif;font-size:18px;font-weight:400">Portfólio Larissa Pereira 2026</b><span style="margin-left:14px;font-weight:700;letter-spacing:0.14em;font-size:12px;color:#D81A67">CRIADORA DE CONTEÚDO UGC &amp; INFLUENCER</span></span>
+<span style="opacity:0.75">© 2026 Larissa Pereira Alves. Todos os direitos reservados.</span>
+</div>
+</div>
+</section>
+
+</div>
+
+<!-- ícones reutilizados -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<path id="estrela" d="M12 0 C12.8 8 16 11.2 24 12 C16 12.8 12.8 16 12 24 C11.2 16 8 12.8 0 12 C8 11.2 11.2 8 12 0Z"/>
+<g id="ic-whats" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 8.6c0 3.4 3 6.4 6.4 6.4l1-1.5-2.1-1-1 .8c-1-.5-2-1.5-2.5-2.5l.8-1-1-2.1z" fill="currentColor" stroke-width="1"/></g>
+<g id="ic-insta" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r="0.9" fill="currentColor" stroke="none"/></g>
+<g id="ic-tiktok" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.5 2.7 2.4 4.5 5 4.7"/></g>
+<g id="ic-email" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></g>
+<g id="ic-youtube" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9v6l5-3z" fill="currentColor" stroke-width="1"/></g>
+</defs>
+</svg>
+
+<script>
+/* ============ CONTEÚDO DO SITE ============
+   Para trocar vídeos, fotos ou textos, edite só as listas abaixo. */
+
+var MARCAS = [
+  ['Dove','logo-dove.jpg'],['Nivea','logo-nivea.png'],['Eudora','logo-eudora.jpg'],['Seda','logo-seda.jpg'],
+  ['Dom Costela Delivery','logo-dom-costela.jpg'],['Pantene','logo-pantene.jpg'],['Seu Smart','logo-seu-smart.jpg'],
+  ['Daniele Fazan Store','logo-daniele-fazan.jpg'],['Flô de Menta','logo-flo-de-menta.jpg'],
+  ['Logo de marca parceira (peixes)','logo-peixes.jpg'],['Logo de marca parceira (cc)','logo-cc.jpg'],
+  ['Knut Hair Care','logo-knut.jpg'],['Logo de marca parceira (cristal)','logo-cristal.jpg'],
+  ['Esfiharia Don Fattori','logo-don-fattori.jpg'],['Dr. Laser','logo-dr-laser.jpg']
+];
+
+/* [marca, descrição, arquivo do vídeo (pasta media, sem .mp4)] */
+var NICHOS = [
+  ['beleza','Beleza e Autocuidado',[
+    ['Eudora Siage','Storytelling usando o produto','eudora-storytelling'],
+    ['Stefany Ohara','Storytelling mostrando a Microlabial','stefany-ohara'],
+    ['Dr. Laser','Tratamento de pele Mesopeel','dr-laser'],
+    ['Hidrabene','Protetor solar famoso do TikTok','hidrabene'],
+    ['Eudora Siage','Recebidos de lançamentos','eudora-recebidos'],
+    ['Dr. Andrei Machado','Fisioterapia para enxaqueca','dr-andrei'],
+    ['Dove','Body care com Sabonete Serum Dove','dove'],
+    ['Nivea','Lançamento Creme Gel Vitamina C','nivea'],
+    ['Knut','Linha para cabelos oleosos','knut']
+  ]],
+  ['comida','Comida e Bebida',[
+    ['Alho Negro','Conhecendo a hamburgueria temática','alho-negro'],
+    ['Pipoca do Divo','Storytelling da pipoca mais desejada da cidade','pipoca-do-divo'],
+    ['Dom Costela','Mostrando como chega o delivery','dom-costela'],
+    ['Bebida Energético','Lançamento de novo sabor','bebida-energetico']
+  ]],
+  ['lifestyle','Lifestyle e Experiências',[
+    ['GRWM Ballet','Série de rotina do ballet na vida adulta','grwm-ballet'],
+    ['Clube Criar','Convite para conhecer esse hobby','clube-criar'],
+    ['Festival TV','Véspera de festival','festival-tv'],
+    ['Festival Cia Juliana Lopes','Entrevista de expectativa','festival-juliana-lopes']
+  ]],
+  ['maternidade','Maternidade e Família',[
+    ['Loja Universe LA','Demonstração de brinquedo viral','universe-viral'],
+    ['Loja Universe LA','Brinquedo lavável educativo','universe-lavavel'],
+    ['','','',' EM BREVE']
+  ]],
+  ['moda','Moda e Lojas',[
+    ['Seu Smart','Anúncio de celular parcelado no boleto','seu-smart-boleto'],
+    ['Daniele Fazan','Anúncio de embaixadora da loja','daniele-fazan'],
+    ['Hering','Lançamento de t-shirt','hering'],
+    ['Seu Smart','Sorteio de celular e grupo VIP','seu-smart-sorteio']
+  ]]
+];
+
+/* [arquivo, descrição] — 2 linhas de 5 */
+var FOTOS = [
+  ['f1.jpg','Larissa com escova de cabelo pintada com flores'],
+  ['f5.jpg','Prato de torrada gratinada com café gelado'],
+  ['f9.jpg','Larissa bebendo energético rosa'],
+  ['f3.jpg','Churros recheados com refrigerante na mesa'],
+  ['f8.jpg','Larissa com a caixa Eudora Siàge'],
+  ['f12.jpg','Larissa segurando o creme facial Nivea'],
+  ['f6.jpg','Sapatilhas de ballet na sala de dança'],
+  ['f13.jpg','Larissa abraçando produtos Dove'],
+  ['f11.jpg','Pote do Nivea Facial 7 em 1 na mão'],
+  ['f4.jpg','Larissa mostrando shampoo e condicionador OX Micelar']
+];
+
+var PALAVRAS = ['Unboxing','Review','Tutorial / Como fazer','Vlog','Demonstrativo','Rotina / Lifestyle','Storytelling','Problema + Solução','Depoimento','GRWM','Trend','Experiência','Institucional','Publicitário','Fotografia'];
+
+var IDADE = [['18-24','9,2%',9.2],['25-34','56,6%',56.6,true],['35-44','19,9%',19.9],['45-54','8,5%',8.5]];
+var CIDADES = [['Mirassol','27,2%',27.2],['São José do Rio Preto','23,4%',23.4],['São Paulo','3,8%',3.8],['Bady Bassitt','1,2%',1.2]];
+
+var MENU = [['home','Home'],['sobre','Sobre'],['marcas','Marcas'],['trabalhos','Trabalhos'],['formatos','Formatos'],['etapas','Etapas'],['metricas','Métricas'],['contato','Contato']];
+
+/* ============ FUNCIONAMENTO ============ */
+(function(){
+  function el(tag, attrs, html){ var e=document.createElement(tag); for(var k in (attrs||{})) e.setAttribute(k, attrs[k]); if(html!=null) e.innerHTML=html; return e; }
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+
+  // Página com o mesmo desenho em qualquer tela: escala 1440px para a largura da janela
+  var pagina=document.getElementById('pagina');
+  function ajusta(){ pagina.style.zoom = (document.documentElement.clientWidth || window.innerWidth) / 1440; }
+  ajusta(); window.addEventListener('resize', ajusta);
+
+  // Menu
+  var menu=document.getElementById('menu');
+  MENU.forEach(function(m){
+    var a=el('a',{href:'#'+m[0],'class':'menu-link'+(m[0]==='contato'?' menu-contato':'')+(m[0]==='home'?' menu-ativo':'')},esc(m[1]));
+    a.addEventListener('click',function(e){
+      var alvo=document.getElementById(m[0]); if(!alvo) return; e.preventDefault();
+      [].forEach.call(menu.children,function(x){x.classList.remove('menu-ativo');}); a.classList.add('menu-ativo');
+      var z=parseFloat(pagina.style.zoom)||1, topo=document.querySelector('header').getBoundingClientRect().height;
+      var y=alvo.getBoundingClientRect().top + window.pageYOffset - topo;
+      if(!('zoom' in document.body.style)) y=y;
+      window.scrollTo({top:Math.max(0,y),behavior:'smooth'});
+      history.replaceState(null,'','#'+m[0]);
+    });
+    menu.appendChild(a);
+  });
+
+  // Marcas (esteira infinita: lista duplicada)
+  var est=document.getElementById('marcas-esteira');
+  MARCAS.concat(MARCAS).forEach(function(m){
+    est.appendChild(el('img',{'class':'logo-marca',src:'assets/'+m[1],alt:m[0],loading:'lazy',style:'display:block;width:90px;height:90px;border-radius:999px;object-fit:cover;border:3px solid #FFF7F2;box-sizing:border-box'}));
+  });
+
+  // Palavras
+  var pal=document.getElementById('palavras');
+  PALAVRAS.concat(PALAVRAS).forEach(function(p){
+    pal.appendChild(el('span',{style:'display:inline-flex;align-items:center;gap:28px;padding-right:28px;line-height:1;font-size:13px;font-weight:700;letter-spacing:0.24em;text-transform:uppercase;color:#FAD2E1;opacity:0.6;white-space:nowrap'},
+      esc(p)+'<svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24"><use href="#estrela" fill="#FAD2E1"/></svg>'));
+  });
+
+  // Métricas: barras
+  function barras(id, lista){
+    var box=document.getElementById(id);
+    lista.forEach(function(l){
+      box.appendChild(el('div',{'class':'metrica-linha',title:l[0]+': '+l[1]},
+        '<div><span style="font-weight:'+(l[3]?800:600)+'">'+esc(l[0])+'</span><b>'+l[1]+'</b></div><span class="barra"><span style="width:'+l[2]+'%;'+(l[3]?'background:#D81A67':'')+'"></span></span>'));
+    });
+  }
+  barras('idade',IDADE); barras('cidades',CIDADES);
+
+  // Fotos
+  var mos=document.getElementById('mosaico');
+  FOTOS.forEach(function(f){
+    var d=el('div',{'class':'mosaico-item'}); d.appendChild(el('img',{src:'assets/'+f[0],alt:f[1],loading:'lazy'})); mos.appendChild(d);
+  });
+
+  // Trabalhos por nicho
+  var nichosBox=document.getElementById('nichos'), gal=document.getElementById('galeria'), nomeBox=document.getElementById('nicho-nome');
+  var btnAnt=document.getElementById('anterior'), btnProx=document.getElementById('proximo');
+  var atual=0, pagina0=0, POR_VEZ=3;
+  function card(v){
+    var fig=el('figure',{style:'margin:0;display:flex;flex-direction:column;gap:14px;text-align:center'});
+    var moldura=el('div',{style:'background:#FAD2E1;padding:10px;border-radius:30px;box-shadow:0 16px 36px rgba(119,5,35,0.12)'});
+    if(v[2]){
+      var vid=el('video',{src:'media/'+v[2]+'.mp4',poster:'media/'+v[2]+'.jpg',controls:'',playsinline:'',preload:'none',style:'display:block;width:100%;aspect-ratio:9 / 16;object-fit:cover;border-radius:22px;background:#770523'});
+      var vol=function(){ vid.volume=0.4; };
+      vid.addEventListener('loadedmetadata',vol); vid.addEventListener('play',function(){
+        vol(); [].forEach.call(gal.querySelectorAll('video'),function(o){ if(o!==vid) o.pause(); });
+      });
+      vid.addEventListener('ended',function(){ vid.currentTime=0; vid.load(); });
+      moldura.appendChild(vid);
+    } else {
+      moldura.appendChild(el('div',{'class':'video-aviso'},
+        '<span style="width:64px;height:64px;border-radius:999px;background:#770523;color:#FAD2E1;display:flex;align-items:center;justify-content:center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"></path></svg></span>'+
+        '<span class="serif" style="font-weight:600;font-size:22px;letter-spacing:0.12em">'+esc((v[3]||'Em breve').trim())+'</span>'));
+    }
+    fig.appendChild(moldura);
+    fig.appendChild(el('figcaption',{style:'display:flex;flex-direction:column;gap:4px'},
+      '<span class="serif" style="font-weight:600;font-size:24px;line-height:1.1">'+esc(v[0])+'</span><span style="font-size:15px;line-height:1.5">'+esc(v[1])+'</span>'));
+    return fig;
+  }
+  function desenha(){
+    var lista=NICHOS[atual][2], max=Math.max(0,lista.length-POR_VEZ);
+    pagina0=Math.min(pagina0,max);
+    [].forEach.call(nichosBox.children,function(b,i){ b.className='nicho'+(i===atual?' nicho-ativo':''); b.setAttribute('aria-pressed',i===atual?'true':'false'); });
+    nomeBox.textContent=NICHOS[atual][1];
+    gal.innerHTML='';
+    lista.slice(pagina0,pagina0+POR_VEZ).forEach(function(v){ gal.appendChild(card(v)); });
+    btnAnt.disabled = pagina0<=0; btnProx.disabled = pagina0>=max;
+  }
+  NICHOS.forEach(function(n,i){
+    var b=el('button',{type:'button','class':'nicho'},esc(n[1]));
+    b.addEventListener('click',function(){ atual=i; pagina0=0; desenha(); });
+    nichosBox.appendChild(b);
+  });
+  btnAnt.addEventListener('click',function(){ pagina0=Math.max(0,pagina0-1); desenha(); });
+  btnProx.addEventListener('click',function(){ pagina0++; desenha(); });
+  desenha();
+})();
+</script>
+</body>
+</html>
